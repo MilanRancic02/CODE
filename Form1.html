@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login i registracija</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-image: url("https://wallpapers.com/images/featured/2ez77umko2vj5w02.jpg");
+      background-size: cover;
+      background-position: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .login-container {
+      background-color: rgba(255, 255, 255, 0.8);
+      padding: 20px;
+      border-radius: 5px;
+      text-align: center;
+    }
+
+    .login-form {
+      max-width: 300px;
+      margin: 0 auto;
+    }
+
+    .login-form input {
+      width: 90%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    .login-form button {
+      width: 90%;
+      padding: 10px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .login-form button:hover {
+      background-color: #45a049;
+    }
+
+    .register-button {
+      margin-top: 10px;
+    }
+
+    .register-button button {
+      width: 90%;
+      padding: 10px;
+      background-color: blue;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .register-button button:hover {
+      background-color: darkblue;
+    }
+  </style>
+</head>
+<body>
+  <div class="login-container">
+    <h2>Restoran Jastog</h2>
+    <form class="login-form">
+      <input type="text" id="username" name="username" placeholder="Korisničko ime" required>
+      <input type="password" id="password" name="password" placeholder="Lozinka" required>
+      <button type="submit">Prijavi se</button>
+    </form>
+    <div class="register-button">
+      <button type="button">Registracija</button>
+    </div>
+  </div>
+</body>
+</html>
